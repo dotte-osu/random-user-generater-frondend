@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="app">
+                <button v-on:click="getUser">Get New User</button>
+                <table>
+                    <thead>
+                        <tr>
+                            <th @click="sort('name')" width="150">Name</th>
+                            <th @click="sort('id')" width="300">Id</th>
+                            <th width="50">Avatar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="user in users">
+                            <td>{{user.name}}</td>
+                            <td>{{user.id}}</td>
+                            <td><img :src="user.url" alt="Avatar" width="50" height="50" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>     
+        <script src="main.js"></script>
+    </body>
+</html>
