@@ -9,4 +9,5 @@ https://dotte-osu.github.io/random-user-generater-frondend/
 ## To run locally
 1. Run random-user-generater-backend https://github.com/dotte-osu/random-user-generater-backend
 2. Download or clone the repository
-3. Open index.html
+3. Change the port number if necessary https://localhost:{port}/api/users/random
+4. Open index.html
