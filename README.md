@@ -7,5 +7,6 @@ A simple web page that generates name, id and avatar. A user can only request 10
 https://dotte-osu.github.io/random-user-generater-frondend/
 
 ## To run locally
-1. Download or clone the repository
-2. Open index.html
+1. Run random-user-generater-backend https://github.com/dotte-osu/random-user-generater-backend
+2. Download or clone the repository
+3. Open index.html
